@@ -1,1 +1,1 @@
-# javascriptSimpleTask
+# javascript mini projects
