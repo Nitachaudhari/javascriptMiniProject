@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>graph creation</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Product data input</h1>
+
+    <div>
+        <input type="text" id="productName" placeholder="product name">
+        <input type="number" id="productPrice" placeholder="price">
+        <input type="number" id="productRating" placeholder="rating (1-5)">
+        <button id="addProduct">Add Product</button>
+    </div>
+
+    <div>
+        <button id="sortPrice">Sort by price</button>
+        <button id="sortRating">Sort by rating</button>
+    </div>
+    
+ 
+    <div id="barGraph"></div>
+    <script src="script.js"></script>
+</body>
+</html>

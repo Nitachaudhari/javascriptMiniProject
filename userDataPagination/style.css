@@ -1,0 +1,19 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#user-container{
+    margin: 10px;
+    width: 20%;
+}
+
+.user-card{
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px;
+}
+
+#pagination{
+    display: flex;
+    justify-content: center;
+}

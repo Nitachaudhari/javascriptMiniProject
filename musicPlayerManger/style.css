@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(47,34,55);
+background: linear-gradient(90deg, rgba(47, 34, 55, 0.701) 0%, rgba(177, 23, 228, 0.674) 21%, rgba(252, 69, 81, 0.822) 47%, rgba(69, 252, 194, 0.575) 74%, rgba(71,74,73,1) 95%);
+}
+
+h1, h2 {
+    text-align: center;
+    color: white;
+}
+
+
+#song-form, #playlist-controls {
+    margin: 20px;
+    text-align: center;
+}
+
+#song-form{
+    background: rgba(244, 244, 244, 0.412);
+    width: 300px;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px solid grey; */
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+#playlist-controls{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid grey; */
+    gap: 30px;
+    background: rgba(255, 255, 255, 0.484);
+    border-radius: 6px;
+    padding: 20px;
+}
+input, select, button {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
+#playlist-controls button{
+    background-color:rgba(78, 2, 78, 0.56);
+    width: 100px;
+}
+button{
+    background-color: rgba(39, 5, 39, 0.797);
+}
+
+#playlist-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+#playlist-table button:nth-child(2){
+    width: 100px;
+    background-color: rgb(163, 13, 13);
+}
+
+#playlist-table button:nth-child(1){
+    width: 100px;
+    background-color: green;
+}
+
+#playlist-table th, #playlist-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+#playlist-table th {
+    background-color: rgb(30, 6, 30);
+    color: white;
+}

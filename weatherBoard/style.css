@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.app-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.search {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#currentWeather, #forecast {
+    margin-top: 20px;
+}
+
+.light-theme {
+    --bg-color: #ffffff;
+    --text-color: #333;
+}
+
+.dark-theme {
+    --bg-color: #333;
+    --text-color: #ffffff;
+}

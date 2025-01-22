@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    background: rgb(209, 196, 201);
+    background: radial-gradient(circle, rgba(209, 196, 201, 1) 0%, rgba(103, 167, 242, 1) 100%);
+}
+
+nav {
+    background-color: #0a3f3c;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #888;
+}
+
+#main-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#add-div {
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: fit-content;
+    background-color: rgba(255, 254, 254, 0.405);
+    margin: 20px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+
+input,
+select,
+button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    margin: 50px 0 50px 40px;
+    width: 70%;
+    background-color: #087123;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Table styles */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ccc;
+}
+
+th {
+    padding: 15px 35px;
+    text-align: left;
+}
+
+td {
+    text-align: left;
+    padding: 5px 5px;
+}
+
+th {
+    background-color: #087123 ;
+}
+
+td button {
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+td[style*="background-color"] {
+    text-align: center;
+}
+
+td button.toggle {
+    background-color: #ffda47;
+    color: #333;
+}
+
+td button.toggle.completed {
+    background-color: #4CAF50;
+    color: white;
+}
+
+td button.archive {
+    background-color: #e57373;
+    color: white;
+}
+
+td button.archive:hover {
+    background-color: #c62828;
+}

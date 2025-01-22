@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Select</title>
+    <style>
+        img{
+            width: 300px;
+            height: 300px;
+            border: 2px solid black;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Select an Animal</h1>
+    <select id="animalSelect">
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+        <option value="Elephant">Elephant</option>
+        <option value="lion">Lion</option>
+    </select>
+    <br><br>
+    <img id="animalImage" src="dog.png" alt="animal">
+</body>
+</html>
+
+<script>
+    document.getElementById('animalSelect').addEventListener('change',function(){
+        const selectAnimal=this.value;
+        const animalImage=document.getElementById('animalImage');
+
+        animalImage.src=`${selectAnimal}.png`;
+    })
+</script>

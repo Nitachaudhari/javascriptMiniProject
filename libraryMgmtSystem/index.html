@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Library Management System</h1>
+
+    <!-- Form to Add a Book -->
+    <section>
+        <h2>Add a New Book</h2>
+        <form id="bookForm">
+            <label for="title">Title:</label>
+            <input type="text" id="title" required>
+
+            <label for="author">Author:</label>
+            <input type="text" id="author" required>
+
+            <label for="genre">Genre:</label>
+            <input type="text" id="genre" required>
+
+            <label for="publishedYear">Published Year:</label>
+            <input type="number" id="publishedYear" required>
+
+            <button type="submit">Add Book</button>
+        </form>
+    </section>
+
+    <!-- Buttons for Filtering and Sorting -->
+    <section>
+        <h2>Manage Books</h2>
+        <button onclick="filterBooksByGenre('Science Fiction')">Filter by Science Fiction</button>
+        <button onclick="sortBooksByYear()">Sort by Published Year</button>
+    </section>
+
+    <!-- Display List of Books -->
+    <section>
+        <h2>Book List</h2>
+        <div id="bookList"></div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>

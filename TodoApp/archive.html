@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archived Todos</title>
+    <link rel="stylesheet" href="styles/archive.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="archive.html">Archive</a>
+    </nav>
+    <div id="archive-div">
+        <div class="archive-class">
+    
+            <select id="priorityFilter">
+                <option value="all">All Priorities</option>
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+            
+            <select id="statusFilter">
+                <option value="all">All Status</option>
+                <option value="pending">Pending</option>
+                <option value="completed">Completed</option>
+            </select>
+        </div>        
+        
+        <table id="archiveTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Priority</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        
+    </div>
+    
+    
+    <script src="scripts/archive.js"></script>
+</body>
+</html>

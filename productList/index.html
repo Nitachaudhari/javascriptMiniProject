@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Product List</h1>
+        <div>
+            <label for="sort">Sort by:</label>
+            <select id="sort" onchange="fetchAndSortData()">
+                <option value="">Select</option>
+                <option value="name">Name</option>
+                <option value="email">Email</option>
+            </select>
+        </div>
+        <ul id="product-list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

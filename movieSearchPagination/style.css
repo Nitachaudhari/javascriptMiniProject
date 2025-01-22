@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #error {
+    color: red;
+  }
+  
+  .movie {
+    width: 60%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  img{
+    width: 200px;
+  }
+  
+  #error {
+    color: red;
+  }
+  
+  button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
